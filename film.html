@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style5.css">
+    <title>Film Sitesi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <!--navbar start-->
+        <div class="navbar">
+       <div class="navbar-wrapper">
+         <div class="logo-wrapper">
+          <h1 class="logo">LOGO</h1>
+         </div>
+         <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item active">Ana Sayfa</li>
+                <li class="menu-list-item">Film</li>
+                <li class="menu-list-item">Diziler</li>
+                <li class="menu-list-item">Listem</li>
+                <li class="menu-list-item">Populer</li>
+            </ul>
+         </div>
+         <div class="profile-container">
+            <img class="profile-picture" src="profil.jpg" alt="">
+            <div class="profile-text-container">
+                <span class="profile-text">Hesabım</span>
+                <i class="bi bi-caret-down-fill"></i>
+            </div>
+            <div class="toggle">
+                <i class="bi bi-moon-fill toggle-icon"></i>
+                <i class="bi bi-brightness-high-fill toggle-icon"></i>
+                <div class="toggle-ball"></div>
+            </div>
+         </div>
+        </div>
+        </div>
+    <!--navbar end-->
+    <!--sidebar start-->
+        <div class="sidebar">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-house-door-fill"></i>
+            <i class="bi bi-people-fill"></i>
+            <i class="bi bi-bookmarks-fill"></i>
+            <i class="bi bi-hourglass-top"></i>
+            <i class="bi bi-cart-fill"></i>
+            <i class="bi bi-gear-fill"></i>
+        </div>
+    <!--sidebar end-->
+    <!--content start-->
+        <div class="container">
+            <!--? featured container start-->
+            <div class="content-wrapper">
+              <div class="featured-content">
+                <img class="featured-title" src="spiderman-title.png" alt="">
+                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam rem molestiae aut a vitae, quam sequi explicabo minus nobis cum quod iste! Accusantium quam corporis quod optio, suscipit eveniet maxime!</p>
+                <div class="featured-buttons">
+                 <button class="play-button">
+                     <i class="bi bi-play-circle"></i>
+                     Oynat
+                 </button>
+                 <button classs="info-button">
+                     <i class="bi bi-info-circle"></i>
+                     Daha Fazla Bilgi
+                 </button>
+                </div>
+             </div>
+             </div>
+              <!--?featured container end-->
+              <!-- filter  start-->
+              <div class="movie-list-filter">
+                <select>
+                    <option>Aksiyon</option>
+                    <option>Animasyon</option>
+                    <option>Belgesel</option>
+                    <option>Komedi</option>
+                    <option>Bilim Kurgu</option>
+                    <option>Gerilim-Korku</option>
+                </select>
+            </div>
+            <!--? filter end-->
+             <!-- movie list start-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Popüler</h1>
+                <div class="movie-list-wrapper">
+                    <ul class="movie-list">
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://kurious.ku.edu.tr/wp-content/uploads/2016/02/20160212094035-orumcekadam-1170x779.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">SPIDER-MAN</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://cdn.vox-cdn.com/thumbor/Pvdo1lFYBBDbEG54FLW4tJ4pUcM=/0x0:2100x1181/1200x800/filters:focal(909x410:1245x746)/cdn.vox-cdn.com/uploads/chorus_image/image/67426099/experience_avengers_day.0.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HULK</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://foto.haberler.com/haber/2022/03/24/gora-nerede-cekildi-g-o-r-a-hangi-il-ve-ilcede-14819082_8520_amp.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">G.O.R.A</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">THOR</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://www.siyahkarga.com/wp-content/uploads/2022/03/harry-potter-film-serisi-sirasi-940x510.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HARRY POTTER</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://image.milimaj.com/i/milliyet/75/869x477/604b0f095542801b04134676.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">FRİENDS</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/S/pv-target-images/6f0832403a6bfa4b5ec3a4d80d8e44146af1e2093301f79d7350d1e04f90f7b6.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">COCO</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                    </ul>
+                    <i class="bi bi-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Gündemdekiler</h1>
+                <div class="movie-list-wrapper">
+                    <ul class="movie-list">
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://kurious.ku.edu.tr/wp-content/uploads/2016/02/20160212094035-orumcekadam-1170x779.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">SPIDER-MAN</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://cdn.vox-cdn.com/thumbor/Pvdo1lFYBBDbEG54FLW4tJ4pUcM=/0x0:2100x1181/1200x800/filters:focal(909x410:1245x746)/cdn.vox-cdn.com/uploads/chorus_image/image/67426099/experience_avengers_day.0.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HULK</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://foto.haberler.com/haber/2022/03/24/gora-nerede-cekildi-g-o-r-a-hangi-il-ve-ilcede-14819082_8520_amp.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">G.O.R.A</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">THOR</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://www.siyahkarga.com/wp-content/uploads/2022/03/harry-potter-film-serisi-sirasi-940x510.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HARRY POTTER</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://image.milimaj.com/i/milliyet/75/869x477/604b0f095542801b04134676.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">FRİENDS</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/S/pv-target-images/6f0832403a6bfa4b5ec3a4d80d8e44146af1e2093301f79d7350d1e04f90f7b6.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">COCO</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                    </ul>
+                    <i class="bi bi-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Yeni Çıkanlar</h1>
+                <div class="movie-list-wrapper">
+                    <ul class="movie-list">
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://kurious.ku.edu.tr/wp-content/uploads/2016/02/20160212094035-orumcekadam-1170x779.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">SPIDER-MAN</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://cdn.vox-cdn.com/thumbor/Pvdo1lFYBBDbEG54FLW4tJ4pUcM=/0x0:2100x1181/1200x800/filters:focal(909x410:1245x746)/cdn.vox-cdn.com/uploads/chorus_image/image/67426099/experience_avengers_day.0.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HULK</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://foto.haberler.com/haber/2022/03/24/gora-nerede-cekildi-g-o-r-a-hangi-il-ve-ilcede-14819082_8520_amp.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">G.O.R.A</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">THOR</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://www.siyahkarga.com/wp-content/uploads/2022/03/harry-potter-film-serisi-sirasi-940x510.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">HARRY POTTER</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://image.milimaj.com/i/milliyet/75/869x477/604b0f095542801b04134676.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">FRİENDS</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                        <li class="movie-item">
+                            <img class="movie-item-img" src="https://m.media-amazon.com/images/S/pv-target-images/6f0832403a6bfa4b5ec3a4d80d8e44146af1e2093301f79d7350d1e04f90f7b6.jpg" alt="">
+                            <div class="movie-item-info">
+                                <span class="movie-item-title">COCO</span>
+                                <div class="movie-item-buttons">
+                                    <i class="bi bi-play-circle-fill"></i>
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    <i class="bi bi-hand-thumbs-down-fill"></i>
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                </div>
+                            
+                            </div>
+                        </li>
+                    </ul>
+                    <i class="bi bi-chevron-right arrow"></i>
+                </div>
+            </div>
+              <!-- movie list endt-->
+        </div>
+    <!--content end-->  
+    <script src="java4.js"></script>
+</body>
+</html>
